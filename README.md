@@ -4,7 +4,7 @@ Python script to unscramble words from a scramble word puzzle.
 
 ## Overview
 
-This Python script reads a scramble word puzzle from a file (`text_to_find.txt`), unscrambles possible combinations, and checks against a list of valid words (`words.txt`). It outputs two files:
+This Python script reads a scramble word puzzle from a file (`text_to_find.txt`), unscrambles possible combinations, and checks against a list of valid words (`words.txt`). It scans in multiple directions: left-right, right-left, top-bottom, bottom-top, and diagonally (both sides). It outputs two files:
 - `unscramble.log`: Logs all unscrambling operations.
 - `valid-unscramble.log`: Logs valid words found in `words.txt`.
 
